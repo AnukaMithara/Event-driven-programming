@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StudentDetails">
+  <grid id="27dc6" binding="StudentDetails" layout-manager="GridLayoutManager" row-count="13" column-count="13" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="43" y="20" width="1001" height="464"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b29ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="84"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="32"/>
+          <text value="Add Student Details"/>
+        </properties>
+      </component>
+      <component id="d2eb6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="48dfa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Fira Code" size="20"/>
+          <text value="Course Details"/>
+        </properties>
+      </component>
+      <component id="9b74a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Course 1"/>
+        </properties>
+      </component>
+      <component id="20c55" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c46be" class="javax.swing.JTextField" binding="regNo">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1e8c2" class="javax.swing.JTextField" binding="email">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="987e9" class="javax.swing.JTextField" binding="advName">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b400a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="b55e2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Credit"/>
+        </properties>
+      </component>
+      <component id="45285" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Code"/>
+        </properties>
+      </component>
+      <component id="ea79a" class="javax.swing.JTextField" binding="cCode1">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="812ed" class="javax.swing.JTextField" binding="cName1">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b0783" class="javax.swing.JTextField" binding="cCredit1">
+        <constraints>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="182fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Course 2"/>
+        </properties>
+      </component>
+      <component id="e3d87" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="901af" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Credit"/>
+        </properties>
+      </component>
+      <component id="88f85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Code"/>
+        </properties>
+      </component>
+      <component id="59729" class="javax.swing.JTextField" binding="cCode2">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c013" class="javax.swing.JTextField" binding="cName2">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5156d" class="javax.swing.JTextField" binding="cCredit2">
+        <constraints>
+          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6f90b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Course 3"/>
+        </properties>
+      </component>
+      <component id="f6a2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="269a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Credit"/>
+        </properties>
+      </component>
+      <component id="acbc8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Code"/>
+        </properties>
+      </component>
+      <component id="8d2b4" class="javax.swing.JTextField" binding="cCode3">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="93969" class="javax.swing.JTextField" binding="cName3">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="67e15" class="javax.swing.JTextField" binding="cCredit3">
+        <constraints>
+          <grid row="9" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b85b" class="javax.swing.JButton" binding="submit">
+        <constraints>
+          <grid row="11" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="4adcf" class="javax.swing.JButton" binding="reset">
+        <constraints>
+          <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <vspacer id="ebb48">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="641c5">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="a8eb2">
+        <constraints>
+          <grid row="11" column="11" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="51e40">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="17079">
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="522ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="4ab8b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="37e02" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="4021a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="de87e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="1533b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="4f8fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="87614" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="c512c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="7f38e" class="javax.swing.JLabel" binding="courseCredtValid">
+        <constraints>
+          <grid row="10" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4849658"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9b247" class="javax.swing.JLabel" binding="nameValid">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="ecb87" class="javax.swing.JLabel" binding="regValid">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="9df71" class="javax.swing.JLabel" binding="emailValid">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="b47e3" class="javax.swing.JLabel" binding="advNameValid">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4519678"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="823f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Registration Number"/>
+        </properties>
+      </component>
+      <component id="df73c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="7b01c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="99" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16"/>
+          <text value="Advisor Name"/>
+        </properties>
+      </component>
+      <component id="1ae3a" class="javax.swing.JLabel" binding="courseCodeValid">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4849658"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c3f41" class="javax.swing.JLabel" binding="courseNameValid">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4849658"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="84001" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4849658"/>
+          <text value="* Required Fields"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
